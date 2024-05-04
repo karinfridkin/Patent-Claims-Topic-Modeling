@@ -4,10 +4,10 @@ For this project, you'll need to install the following dependencies:
 
 ## Python 3 Installations Needed:
 ###  Libraries:
-requests: To make HTTP requests for web scraping.
-beautifulsoup4: For parsing HTML and XML documents.
-nltk: Natural Language Toolkit for text processing.
-gensim: For topic modeling using Latent Dirichlet Allocation (LDA).
-pandas: For data manipulation and analysis.
-Flask: Web framework for building the interactive application.
-pyLDAvis: For visualizing the LDA topics.
+- requests: To make HTTP requests for web scraping.
+- beautifulsoup4: For parsing HTML and XML documents.
+- nltk: Natural Language Toolkit for text processing.
+- gensim: For topic modeling using Latent Dirichlet Allocation (LDA).
+- pandas: For data manipulation and analysis.
+- Flask: Web framework for building the interactive application.
+- pyLDAvis: For visualizing the LDA topics.
