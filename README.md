@@ -13,19 +13,19 @@ For this project, you'll need to install the following dependencies:
 - pyLDAvis: For visualizing the LDA topics.
 
 # Running the Notebooks and Flask Application:
-### To ensure proper execution, follow the sequence below:
+##### To ensure proper execution, follow the sequence below:
 
 ### Data-Gathering.ipynb:
-#### Run this notebook first to scrape patent claims data from various sources.
-#### Save the extracted data as pickle files in the same directory as the code.
-#### Patent-Claims-Data-Cleaning.ipynb:
-### Proceed to run this notebook after Data-Gathering.ipynb.
-#### Clean the extracted patent claims data to prepare it for analysis.
-####  Save any cleaned data or intermediate results as pickle files in the same directory.
+- Run this notebook first to scrape patent claims data from various sources.
+- Save the extracted data as pickle files in the same directory as the code.
+### Patent-Claims-Data-Cleaning.ipynb:
+- Proceed to run this notebook after Data-Gathering.ipynb.
+- Clean the extracted patent claims data to prepare it for analysis.
+-  Save any cleaned data or intermediate results as pickle files in the same directory.
 ### LDA.ipynb:
-#### Run this notebook after Patent-Claims-Data-Cleaning.ipynb.
-#### Build Latent Dirichlet Allocation (LDA) models to identify topics within the patent claims.
-#### Save any generated models or processed data as necessary.
+- Run this notebook after Patent-Claims-Data-Cleaning.ipynb.
+- Build Latent Dirichlet Allocation (LDA) models to identify topics within the patent claims.
+- Save any generated models or processed data as necessary.
 ### flaskApp.py:
-#### Lastly, run the Flask application to interactively explore the LDA topic modeling results.
-#### Ensure all necessary files, including pickle files generated from previous steps, are saved in the same directory as the code.
+- Lastly, run the Flask application to interactively explore the LDA topic modeling results.
+- Ensure all necessary files, including pickle files generated from previous steps, are saved in the same directory as the code.
