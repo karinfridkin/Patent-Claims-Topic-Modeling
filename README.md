@@ -30,4 +30,3 @@ For this project, you'll need to install the following dependencies:
 - Lastly, run the Flask application to interactively explore the LDA topic modeling results.
 - Ensure all necessary files, including pickle files generated from previous steps, are saved in the same directory as the code.
 
-*due to time constraints, I couldn't complete Task 2 as required
